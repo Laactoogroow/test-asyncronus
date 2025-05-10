@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container bg-sky-700">
+      <div class="p-6">
+        <h2 class="text-slate-100 font-bold text-2xl">
+          Selamat Datang di Tens Market
+        </h2>
+      </div>
+    </div>
+    <div class="p-6">
+      <h2 class="text-xl font-medium text-center">
+        Silahkan pilih menu yang ingin anda beli😁
+      </h2>
+      <div class="border h-52 mt-2 flex">
+        <div class="py-4 px-[11px]">
+          <div class="border w-24 p-2 rounded-md">
+            <img src="./img/1.jpeg" alt="sate" class="rounded-xl" />
+            <div class="text-[15px] text-center font-medium">
+              <p>Sate Ayam</p>
+              <p>12.000</p>
+              <button
+                id="sateAyam"
+                class="border rounded-md px-4 py-[2px] mt-2 cursor-pointer hover:bg-sky-700 hover:text-slate-100"
+              >
+                Pesan
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="py-4 px-2">
+          <div class="border w-24 p-2 rounded-md">
+            <img src="./img/2.jpeg" alt="sate" class="rounded-xl" />
+            <div class="text-[15px] text-center font-medium">
+              <p>Mie Ayam</p>
+              <p>8.000</p>
+              <button
+                id="mieAyam"
+                class="border rounded-md px-4 py-[2px] mt-2 cursor-pointer hover:bg-sky-700 hover:text-slate-100"
+              >
+                Pesan
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="py-4 px-2">
+          <div class="border w-24 p-2 rounded-md">
+            <img src="./img/3.jpeg" alt="sate" class="rounded-xl" />
+            <div class="text-[15px] text-center font-medium">
+              <p>Soto Ayam</p>
+              <p>14.000</p>
+              <button
+                id="sotoAyam"
+                class="border rounded-md px-4 py-[2px] mt-2 cursor-pointer hover:bg-sky-700 hover:text-slate-100"
+              >
+                Pesan
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Pembeli -->
+      <div class="mt-2 flex items-center gap-2">
+        <div
+          class="border rounded-md w-24 text-center hover:bg-sky-700 hover:text-slate-100"
+          id="satu"
+        >
+          Pembeli 1
+        </div>
+        <div
+          class="border rounded-md w-24 text-center hover:bg-sky-700 hover:text-slate-100"
+          id="dua"
+        >
+          Pembeli 2
+        </div>
+        <div
+          class="border rounded-md w-24 text-center hover:bg-sky-700 hover:text-slate-100"
+          id="tiga"
+        >
+          Pembeli 3
+        </div>
+      </div>
+    </div>
+
+    <!-- script -->
+    <script src="index.js"></script>
+  </body>
+</html>
